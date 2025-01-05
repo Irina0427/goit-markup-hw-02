@@ -58,9 +58,11 @@ ul {
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #2e2f42;
+        color:#2e2f42;
 }
-.ttteamcard:hover,
+.ttteamcard:hover{ 
+    color:#404bbf;
+    }
 .ttteamcard:focus{
     color: #404bbf;
 }
@@ -73,10 +75,20 @@ ul {
     letter-spacing: 0.02em;
     color:#434455;
 }
-.teamcard-heade:hover,
+.teamcard-heade:hover{
+    color: #404bbf;
+}
 .teamcard-heade:focus{
     color: #404bbf;
 }
+.ttteamcard-header:hover{
+color: #404bbf;
+}
+
+.ttteamcard-header:focus{
+color: #404bbf;
+}
+
 .first-section {
     background-color: #2e2f42;
 }
@@ -108,7 +120,7 @@ color: #2e2f42;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: #434455;
+        color:#434455;
     }
     .button {
     font-family: "Roboto", sans-serif;
@@ -116,16 +128,22 @@ color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff;
+    color:#fff;
     cursor: pointer;
-    background-color: #404BBF;
+    background-color:#404BBF;
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    background-color: #4D5AE5
+    background-color: #4D5AE5;
+}
+.button:hover{
+    background-color: #404BBF;
+}
+.button:focus {
+    background-color: #404BBF;
 }
     .third-section{
 background-color: #F4F4FD;
