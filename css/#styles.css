@@ -1,53 +1,63 @@
-/* roboto-regular - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/roboto-v32-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+
+.raleway {
+        font-family: "Raleway", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+}
+.roboto-regular {
+        font-family: "Roboto", serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
-/* roboto-500 - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    src: url('../fonts/roboto-v32-latin-500.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+.roboto-medium {
+        font-family: "Roboto", serif;
+        font-weight: 500;
+        font-style: normal;
 }
 
-/* roboto-700 - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Roboto';
-    font-style: normal;
+.roboto-bold {
+        font-family: "Roboto", serif;
+        font-weight: 700;
+        font-style: normal;
+}
+body {font-family: Roboto, sans-serif;
+color:#434455;
+background-color:#FFFFFF;
+}
+.web{
+   font-family: "Raleway", sans-serif;
     font-weight: 700;
-    src: url('../fonts/roboto-v32-latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    margin-right: 76px;
 }
-/* raleway-regular - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    src: url('../fonts/raleway-v34-latin-regular.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+.studio{
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
 }
-
-/* raleway-700 - latin */
-@font-face {
-    font-display: swap;
-    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    src: url('../fonts/raleway-v34-latin-700.woff2') format('woff2');
-    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+.menu_nav .menu_nav_link{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+.menu_address .menu_address_link{
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+         color: #434455;
 }
